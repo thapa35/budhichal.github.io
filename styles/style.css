@@ -1,0 +1,67 @@
+#table{
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dices {
+    transition: all 0.3s linear;
+}
+#desk {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    overflow:hidden;
+    background-color: lightblue;
+    box-shadow: 5px 5px 20px 12px lightblue;
+}
+.boxes {
+    width: 49.1%;
+    height: 50%;
+    border: 2px solid blue;
+}
+.diagnols {
+    position: absolute;
+    height: 0.5%;
+    top: 0;
+    background-color: green;
+}
+#diceInhabitar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+
+}
+.units {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#reloder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-image: linear-gradient(to right,red,yellow,green,pink,blue);
+    background-clip: text;
+    transition: 0.2s all linear;
+
+}
+#congratulation_screen {
+
+    color: transparent;
+}
+#paragraph {
+    background-image: linear-gradient(to right,red,yellow,green,pink,blue);
+    background-clip: text;
+    font-size: 40px;
+}
+#reloder:hover {
+    font-size: 27px;
+}
